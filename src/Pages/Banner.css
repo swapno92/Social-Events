@@ -1,0 +1,11 @@
+.banner {
+    height: 70vh;
+    border-radius: 8px;
+    background-image: url('../assets/banner.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    display: flex;
+    justify-content: center;
+}
