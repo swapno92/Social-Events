@@ -5,7 +5,7 @@ import { NavLink } from "react-router-dom";
 const Navbar = () => {
     const items = <>
         <li className="text-xl font-semibold"><NavLink to='/'>Home</NavLink></li>
-        <li className="text-xl font-semibold"><NavLink to='/clients'>Services</NavLink></li>
+        <li className="text-xl font-semibold"><NavLink to='/clients'>Clients</NavLink></li>
         <li className="text-xl font-semibold"><NavLink to='/photos'>Photos</NavLink></li>
         <li className="text-xl font-semibold"><NavLink to='/login'>Login</NavLink></li>
         <li className="text-xl font-semibold"><NavLink to='/register'>Register</NavLink></li>

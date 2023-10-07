@@ -1,5 +1,7 @@
 // import React from 'react';
 
+import Footer from "./Footer";
+
 const Photos = () => {
 
     const photos = <>
@@ -58,6 +60,7 @@ const Photos = () => {
             <div className="mb-4 grid lg:grid-cols-4 md:grid-cols-3 grid-cols-2 gap-6">
                 {photos}
             </div>
+            <Footer></Footer>
         </>
     );
 };
