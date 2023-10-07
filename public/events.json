@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "img": "https://i.ibb.co/xj73ghG/wedding.jpg",
+        "name": "Weddings",
+        "price": "55000",
+        "description": "Join us in the celebration of love as [Couple's Names] exchange vows and commit their lives to each other. Witness the heartfelt promises and share in the joy as they embark on this beautiful journey together. Your presence and blessings mean the world to them as they start their new life as a married couple.The wedding day begins with a sense of anticipation and excitement in the air. The venue is adorned with exquisite flowers, delicate fabrics, and the soft glow of candles, creating a magical ambiance. As the ceremony commences, the bride, resplendent in her gown, walks down the aisle, her eyes meeting those of her beloved groom. In that moment, time seems to stand still, and the world revolves around their love."
+    },
+    {
+        "id": 2,
+        "img": "https://i.ibb.co/1JBHFJT/birthday.jpg",
+        "name": "Birthday Parties",
+        "price": "20000",
+        "description": "birthday celebration is  special event, friends and family come together, bringing with them laughter, smiles, and sometimes tears of joy. The atmosphere is adorned with balloons, confetti, and the sweet aroma of birthday cakes. The moment the candles are lit, everyone gathers around, Birthday events often resonate with themes of joy, gratitude, and reflection. It's a time when heartfelt wishes are shared, and thoughtful gifts are exchanged, symbolizing the affection and appreciation the celebrant holds in the hearts of others."
+    },
+    {
+        "id": 3,
+        "img": "https://i.ibb.co/ZB7J7yf/anniversaries.jpg",
+        "name": "Anniversaries",
+        "price": "35000",
+        "description": "Anniversaries are beautiful milestones that celebrate enduring love, commitment, and togetherness. These events mark significant moments in a couple's journey, whether it's their wedding anniversary, the anniversary of their first date, or any other meaningful occasion. An anniversary event is not just a celebration; it's a heartfelt tribute to the bond shared between two people.During an anniversary event, love fills the air as friends and family gather to honor the couple. It's a time for reflection, a chance to reminisce about cherished memories, and an opportunity to look forward to the years ahead."
+    },
+    {
+        "id": 4,
+        "img": "https://i.ibb.co/wyT9W5Z/Engagement-Parties.jpg",
+        "name": "Engagement Parties",
+        "price": "40000",
+        "description": "An Engagement Party is a cherished prelude to the wedding festivities, a jubilant occasion where the couple's commitment to one another is celebrated with friends and family. This intimate gathering is infused with the warmth of love and anticipation, marking the beginning of their journey towards marital bliss.As guests enter the venue, they're enveloped in an atmosphere of romance and joy. The dor, often adorned with elegant flowers and soft lighting, creates a setting that mirrors the couple's love story  sophisticated yet heartwarming."
+    },
+    {
+        "id": 5,
+        "img": "https://i.ibb.co/kBVJXyy/Retirement-Parties.jpg",
+        "name": "Retirement Parties",
+        "price": "20000",
+        "description": "A Retirement Party is a heartfelt celebration honoring an individual’s dedication, commitment, and accomplishments throughout their professional journey. It is a joyous occasion marking the end of a fulfilling career and the beginning of a new chapter in life.The atmosphere at a Retirement Party is filled with warmth and appreciation as colleagues, friends, and family gather to express gratitude for the retiree’s years of hard work and dedication. The venue is often adorned with decorations reflecting the retiree’s interests and achievements, creating a festive ambiance."
+    },
+    {
+        "id": 6,
+        "img": "https://i.ibb.co/QjP0XgQ/Baby-Shower.jpg",
+        "name": "Baby shower",
+        "price": "15000",
+        "description": "A baby shower is a joyous and heartwarming occasion that celebrates the impending arrival of a new bundle of joy into These the worldonly entertain . It's a time when family and friends gather to shower the expectant mother with love, support, and well-wishes as she embarks on the beautiful journey of motherhood.The atmosphere at a baby shower is typically filled with excitement and anticipation. Decorations often reflect the theme of the event, ranging from cute and whimsical to elegant and sophisticated. Guests engage in delightful activities and games, creating a sense of camaraderie and laughter. These activities not only entertain but also strengthen the bonds between attendees, making the event even more memorable."
+    }
+]
