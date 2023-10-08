@@ -7,7 +7,7 @@ const Category = ({category}) => {
 // console.log(id);
     return (
         //   <section className="my-4  grid lg:grid-cols-3  md:grid-cols-2 grid-cols-1 py-4 px-3 gap-10">
-                <div className=" space-y-2 py-3 shadow-2xl rounded-lg ">
+                <div className=" space-y-2 py-3 shadow-2xl rounded-lg bg-rose-50">
                     <div className=" flex flex-col items-center ">
                         <img className="w-72 h-52 rounded-lg" src={img} alt="" />
                     </div>
