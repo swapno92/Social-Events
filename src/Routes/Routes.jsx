@@ -9,6 +9,7 @@ import Photos from "../Pages/Photos";
 import Clients from "../Pages/Clients";
 import CardDetails from "../Pages/CardDetails";
 import ErrorPage from "../Pages/ErrorPage";
+import PrivateRoute from "../Pages/PrivateRoute";
 
 const router = createBrowserRouter([
     {
@@ -23,16 +24,16 @@ const router = createBrowserRouter([
             },
             {
                 path: '/category/:id',
-                element: <CardDetails></CardDetails>,
+                element: <PrivateRoute><CardDetails></CardDetails></PrivateRoute>,
                 loader: ()=>fetch('/events.json')
             },
             {
                 path: '/clients',
-                element: <Clients></Clients>
+                element: <PrivateRoute><Clients></Clients></PrivateRoute>
             },
             {
                 path: '/photos',
-                element: <Photos></Photos>
+                element: <PrivateRoute><Photos></Photos></PrivateRoute>
             },
             {
                 path: '/login',

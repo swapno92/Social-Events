@@ -1,12 +1,33 @@
 // import React from 'react';
 
+import { useContext } from "react";
 import { Link } from "react-router-dom";
+import { AuthContext } from "../Providers/AuthProvider";
 
 const Register = () => {
+
+    const { createUser } = useContext(AuthContext)
+    // console.log(authInfo);
+
+    const handleRegister = e => {
+        e.preventDefault()
+        const name = e.target.name.value;
+        const email = e.target.email.value;
+        const password = e.target.password.value;
+        console.log(name, email, password);
+
+        createUser(email, password)
+            .then(result => {
+                console.log(result.user);
+            })
+            .catch(error => {
+                console.error(error)
+            })
+    }
     return (
         <div className=" pb-5 border border-gray-300 rounded-lg w-1/2 mx-auto">
             <h2 className="text-3xl my-7  text-center">This is Register</h2>
-            <form className="md:w-3/4 lg:w-1/2 mx-auto">
+            <form onSubmit={handleRegister} className="md:w-3/4 lg:w-1/2 mx-auto">
                 <div className="form-control">
                     <label className="label">
                         <span className="label-text font-semibold text-md">Name</span>

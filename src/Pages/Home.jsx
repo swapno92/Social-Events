@@ -5,7 +5,6 @@ import Banner from "./Banner";
 import Category from "./Category";
 import Footer from "./Footer";
 import Agency from "./Agency";
-import SurvicesPlus from "./ServicesPlus";
 import ServicesPlus from "./ServicesPlus";
 
 const Home = () => {
