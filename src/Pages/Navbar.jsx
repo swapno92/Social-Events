@@ -41,14 +41,15 @@ const Navbar = () => {
             </div>
             <div className="navbar-end">
                 {
-                    user ? <>
-                        <span className="mr-3 bg-gray-300 px-2 py-3 rounded lg">{user.email}</span>
+                    user ? < >
+                            <img className="w-10 h-10 rounded-full" src={user.photoURL} />
+                        <span className="mx-3 bg-gray-300 px-2 py-3 rounded lg">{user.displayName}</span>
                         <a onClick={handleLogOut} className="btn font-semibold">Sign Out</a>
-                    </> 
-                    :
-                    <Link to="/login">
-                        <button className="btn font-semibold">Login</button>
-                    </Link>
+                    </>
+                        :
+                        <Link to="/login">
+                            <button className="btn font-semibold">Login</button>
+                        </Link>
                 }
 
             </div>

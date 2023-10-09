@@ -6,52 +6,52 @@ const Photos = () => {
 
     const photos = <>
         <div className=" h-96 mx-auto p-4 rounded-lg shadow-2xl">
-            <img className="h-full rounded" src="https://i.ibb.co/tPBR58d/1.jpg" alt="" />
+            <img className="h-full rounded" src="https://i.ibb.co/tPBR58d/1.jpg" alt="" data-aos="zoom-in" />
         </div>
         <div className=" h-96 mx-auto p-4 rounded-lg shadow-2xl">
-            <img className="h-full rounded" src="https://i.ibb.co/KXNk9Jz/2.jpg" alt="" />
+            <img className="h-full rounded" src="https://i.ibb.co/KXNk9Jz/2.jpg" alt="" data-aos="zoom-in" />
         </div>
         <div className=" h-96 mx-auto p-4 rounded-lg shadow-2xl">
-            <img className="h-full rounded" src="https://i.ibb.co/8BLjwBV/3.jpg" alt="" />
+            <img className="h-full rounded" src="https://i.ibb.co/8BLjwBV/3.jpg" alt="" data-aos="zoom-in" />
         </div>
         <div className=" h-96 mx-auto p-4 rounded-lg shadow-2xl">
-            <img className="h-full rounded" src="https://i.ibb.co/7Wh8StX/4.jpg" alt="" />
+            <img className="h-full rounded" src="https://i.ibb.co/7Wh8StX/4.jpg" alt="" data-aos="zoom-in" />
         </div>
         <div className=" h-96 mx-auto p-4 rounded-lg shadow-2xl">
-            <img className="h-full rounded" src="https://i.ibb.co/wBB4VxG/5.jpg" alt="" />
+            <img className="h-full rounded" src="https://i.ibb.co/wBB4VxG/5.jpg" alt="" data-aos="zoom-in" />
         </div>
         <div className=" h-96 mx-auto p-4 rounded-lg shadow-2xl">
-            <img className="h-full rounded" src="https://i.ibb.co/LJGG62j/6.jpg" alt="" />
+            <img className="h-full rounded" src="https://i.ibb.co/LJGG62j/6.jpg" alt="" data-aos="zoom-in" />
         </div>
         <div className=" h-96 mx-auto p-4 rounded-lg shadow-2xl">
-            <img className="h-full rounded" src="https://i.ibb.co/c1cqRTx/7.jpg" alt="" />
+            <img className="h-full rounded" src="https://i.ibb.co/c1cqRTx/7.jpg" alt="" data-aos="zoom-in" />
         </div>
         <div className=" h-96 mx-auto p-4 rounded-lg shadow-2xl">
-            <img className="h-full rounded" src="https://i.ibb.co/DKyHVq8/8.jpg" alt="" />
+            <img className="h-full rounded" src="https://i.ibb.co/DKyHVq8/8.jpg" alt="" data-aos="zoom-in" />
         </div>
         <div className=" h-96 mx-auto p-4 rounded-lg shadow-2xl">
-            <img className="h-full rounded" src="https://i.ibb.co/mS0GBGJ/9.jpg" alt="" />
+            <img className="h-full rounded" src="https://i.ibb.co/mS0GBGJ/9.jpg" alt="" data-aos="zoom-in" />
         </div>
         <div className=" h-96 mx-auto p-4 rounded-lg shadow-2xl">
-            <img className="h-full rounded" src="https://i.ibb.co/crLsgmN/10.jpg" alt="" />
+            <img className="h-full rounded" src="https://i.ibb.co/crLsgmN/10.jpg" alt="" data-aos="zoom-in" />
         </div>
         <div className=" h-96 mx-auto p-4 rounded-lg shadow-2xl">
-            <img className="h-full rounded" src="https://i.ibb.co/849TLqg/11.jpg" alt="" />
+            <img className="h-full rounded" src="https://i.ibb.co/849TLqg/11.jpg" alt="" data-aos="zoom-in" />
         </div>
         <div className=" h-96 mx-auto p-4 rounded-lg shadow-2xl">
-            <img className="h-full rounded" src="https://i.ibb.co/DfCLbMK/12.jpg" alt="" />
+            <img className="h-full rounded" src="https://i.ibb.co/DfCLbMK/12.jpg" alt="" data-aos="zoom-in" />
         </div>
         <div className=" h-96 mx-auto p-4 rounded-lg shadow-2xl">
-            <img className="h-full rounded" src="https://i.ibb.co/Hd4Xf0v/13.jpg" alt="" />
+            <img className="h-full rounded" src="https://i.ibb.co/Hd4Xf0v/13.jpg" alt="" data-aos="zoom-in" />
         </div>
         <div className=" h-96 mx-auto p-4 rounded-lg shadow-2xl">
-            <img className="h-full rounded" src="https://i.ibb.co/86K7bj0/14.jpg" alt="" />
+            <img className="h-full rounded" src="https://i.ibb.co/86K7bj0/14.jpg" alt="" data-aos="zoom-in" />
         </div>
         <div className=" h-96 mx-auto p-4 rounded-lg shadow-2xl">
-            <img className="h-full rounded" src="https://i.ibb.co/pwmfhkw/15.png" alt="" />
+            <img className="h-full rounded" src="https://i.ibb.co/pwmfhkw/15.png" alt="" data-aos="zoom-in" />
         </div>
         <div className=" h-96 mx-auto p-4 rounded-lg shadow-2xl">
-            <img className="h-full rounded" src="https://i.ibb.co/wpHFtYB/16.jpg" alt="" />
+            <img className="h-full rounded" src="https://i.ibb.co/wpHFtYB/16.jpg" alt="" data-aos="zoom-in" />
         </div>
     </>
     return (
