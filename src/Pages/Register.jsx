@@ -3,6 +3,7 @@
 import { useContext } from "react";
 import { Link } from "react-router-dom";
 import { AuthContext } from "../Providers/AuthProvider";
+import swal from 'sweetalert';
 
 const Register = () => {
 
@@ -19,6 +20,7 @@ const Register = () => {
         createUser(email, password)
             .then(result => {
                 console.log(result.user);
+                swal("Good job!", "Registration Success", "success");
             })
             .catch(error => {
                 console.error(error)

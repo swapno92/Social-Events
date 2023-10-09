@@ -1,12 +1,14 @@
 // import React from 'react';
 
 import { useContext } from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { AuthContext } from "../Providers/AuthProvider";
+import swal from 'sweetalert';
 
 const Login = () => {
 
-    const { signInUser } = useContext(AuthContext)
+    const { signInUser, signInWithGoogle } = useContext(AuthContext)
+    const navigate = useNavigate()
 
     const handleLogin = e => {
         e.preventDefault()
@@ -17,13 +19,27 @@ const Login = () => {
         signInUser(email, password)
             .then(result => {
                 console.log(result.user);
+                e.target.reset()
+                swal("Good job!", "Login Success.", "success");
+                navigate('/')
             })
             .catch(error => {
                 console.error(error)
             })
     }
+
+    const handleWithGoogle = () => {
+        signInWithGoogle()
+            .then(result => {
+                console.log(result.user);
+            })
+            .catch(error => {
+                console.error(error)
+            })
+    }
+
     return (
-        <div className="border border-gray-300 my-5 rounded-lg pb-8 w-1/2 mx-auto">
+        <div className="border border-gray-300 my-5 rounded-lg pb-8 w-1/2 mx-auto flex flex-col items-center">
             <h2 className="text-3xl my-10 text-center font-bold">This is Login</h2>
             <form onSubmit={handleLogin} className="md:w-3/4 lg:w-1/2 mx-auto">
                 <div className="form-control">
@@ -46,6 +62,7 @@ const Login = () => {
                 </div>
                 <p className="text-center mt-4">Do not have an account <Link className="text-blue-600 font-bold" to='/register'>Register</Link></p>
             </form>
+            <p onClick={handleWithGoogle} className=" bg-slate-300 px-16 py-2 rounded-lg border border-lime-600 mt-6">Sign in with google</p>
         </div>
     );
 };
