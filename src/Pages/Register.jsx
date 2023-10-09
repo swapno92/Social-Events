@@ -40,7 +40,7 @@ const Register = () => {
 
     }
     return (
-        <div className=" pb-5 border border-gray-300 rounded-lg w-1/2 mx-auto"
+        <div className=" pb-5 border border-gray-300 rounded-lg lg:w-1/2 lg:mx-auto mx-6 lg:px-0 px-10"
             
         >
             <h2 className="text-3xl my-7 text-center" data-aos="fade-down">This is Register</h2>

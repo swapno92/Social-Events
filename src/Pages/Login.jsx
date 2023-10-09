@@ -43,7 +43,7 @@ const Login = () => {
     }
 
     return (
-        <div className="border border-gray-300 my-5 rounded-lg pb-8 w-1/2 mx-auto flex flex-col items-center">
+        <div className="border border-gray-300 my-5 rounded-lg pb-8 lg:w-1/2 mx-4 lg:mx-auto   lg:px-0 md:px-10 flex flex-col items-center">
             <h2 className="text-3xl my-10 text-center font-bold" data-aos="fade-down">This is Login</h2>
             <form onSubmit={handleLogin} className="md:w-3/4 lg:w-1/2 mx-auto" data-aos="fade-down">
                 <div className="form-control">
