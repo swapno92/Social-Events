@@ -56,7 +56,7 @@ const Register = () => {
                     <label className="label">
                         <span className="label-text font-semibold text-md">Image</span>
                     </label>
-                    <input type="text" required name="image" placeholder="image" className="input input-bordered" />
+                    <input type="text" name="image" placeholder="image" className="input input-bordered" />
                 </div>
 
                 <div className="form-control">
